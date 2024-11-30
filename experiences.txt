@@ -126,7 +126,7 @@
 
         <!-- Main Content -->
 <div class="main" style="line-height: 1.5;">
-            <h1>Work with F&B Restaurant</h1>
+            <h1>Work with F&B Restaurant🍔🍟</h1>
             <ul>
                 <li>Self-study, which allows me to work independently using a standard curriculum to learn the important operational standards.</li>
                 <li>On-the-job coaching gives me the opportunity to work shoulder-to-shoulder with a coach, which builds on-the-job practical restaurant skills and shows how the concepts work in real life.</li>
@@ -136,7 +136,7 @@
             </ul>
     <hr style="border: 1px solid black; margin: 20px 0; width: 90%;">
 
-            <h1>Internship at Perpustakaan Tunku Abdul Razak UiTM Shah Alam</h1>
+            <h1>Internship at Perpustakaan Tunku Abdul Razak UiTM Shah Alam🏛️👔</h1>
 </ul>
             <img src="satu.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
 <strong style="font-size: 1.5em;">Understanding Library Operations</strong>
