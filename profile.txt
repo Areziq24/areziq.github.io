@@ -88,7 +88,7 @@
     <div class="container">
         <!-- Sidebar Menu -->
         <aside class="sidebar">
-            <a href="file:///C:/Users/MHaziq/Desktop/ori/home.html">Home</a>
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/index.html">Home</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/profile.html">Profile</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/education.html">Education</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/experiences.html">Experiences</a>
