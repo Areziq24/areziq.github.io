@@ -1,0 +1,203 @@
+education baru
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('try1.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        /* Header */
+        header {
+            background-image: url('jap');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            height: 60px;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            align-items: stretch;
+            height: 200vh;
+        }
+
+        /* Sidebar Menu */
+        .sidebar {
+            width: 20%;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            margin: 10px 0;
+            border-bottom: 1px solid white;
+        }
+
+        .sidebar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Main Content */
+        .main {
+            width: 80%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-image: url('try1.gif');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Digital Clock */
+        .digital-clock {
+            width: 330px;
+            background: transparent;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            letter-spacing: 3px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 style="color: gold; font-family: serif; letter-spacing: 2px;">MY EDUCATION</h1>
+    </header>
+
+    <!-- Digital Clock -->
+    <div align="center">
+        <div class="digital-clock"></div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="container">
+        <!-- Sidebar Menu -->
+        <aside class="sidebar">
+            <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/home.html">Home</a>
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/profile.html">Profile</a>
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/education.html">Education</a>
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/experiences.html">Experiences</a>
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/skill.html">Skills</a>
+            <a href="file:///C:/Users/MHaziq/Desktop/ori/social%20media.html">Social Media</a>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main">
+            <!-- New Section Starts Here -->
+            <section>
+                <h2>SEKOLAH KEBANGSAAN KUANG</h2>
+                <img src="kuang.png" alt="Kuang School" style="width: 10%; border-radius: 8px; margin-bottom: 10px;">
+                <p>2011 - 2016.</p>
+                <p>Ujian Pencapaian Sekolah Rendah (UPSR).</p>
+                <p>Ujian Penilaian Sekolah Rendah Agama (PSRA).</p>
+                <h3>Listen to My Official School Song</h3>
+                <audio controls>
+                    <source src="sk.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+            <hr style="border: 1px solid black; margin: 10px 0;">
+            <section>
+                <h2>SEKOLAH MENENGAH KEBANGSAAN BUKIT GADING</h2>
+                <img src="gading.jpg" alt="Bukit Gading School" style="width: 10%; border-radius: 8px; margin-bottom: 10px;">
+                <p>2017 - 2022.</p>
+                <p>Pentaksiran Tingkatan Tiga (PT3).</p>
+                <p>Sijil Pelajaran Malaysia (SPM).</p>
+                <h3>Listen to My Official School Song</h3>
+                <audio controls>
+                    <source src="gading.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+            <hr style="border: 1px solid black; margin: 10px 0;">
+            <section>
+                <h2>UNIVERSITY TECHNOLOGY MARA SEGAMAT, JOHOR</h2>
+                <img src="uitm.png" alt="UiTM Segamat" style="width: 20%; border-radius: 8px; margin-bottom: 20px;">
+                <p>2022 - Now</p>
+                <p>Diploma of Information Management</p>
+                <h3>Listen to My Official University Song</h3>
+                <audio controls>
+                    <source src="uitm.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+        </div> <!-- Main Content End -->
+    </div> <!-- Container End -->
+
+    <!-- Footer -->
+    <footer>
+        <marquee width="20%" scrolldelay="150">CREATED BY HAZIQ.</marquee>
+    </footer>
+
+    <!-- JavaScript for Digital Clock -->
+    <script>
+        setInterval(() => {
+            const time = document.querySelector(".digital-clock");
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let AM_PM = "AM";
+
+            if (hours > 11) {
+                AM_PM = "PM";
+                hours -= 12;
+            }
+            if (hours === 0) {
+                hours = 12;
+            }
+            if (seconds < 10) {
+                seconds = "0" + seconds;
+            }
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+            if (hours < 10) {
+                hours = "0" + hours;
+            }
+            time.textContent = hours + ":" + minutes + ":" + seconds + " " + AM_PM;
+        }, 1000);
+    </script>
+</body>
+</html>
