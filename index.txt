@@ -178,7 +178,7 @@ NEW HOME
         <!-- Sidebar Menu -->
         <aside class="sidebar">
             <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
-            <a href="#home">Home</a>
+            <a href="index.html">Home</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/profile.html">Profile</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/education.html">Education</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/experiences.html">Experiences</a>
