@@ -1,3 +1,5 @@
+new exper
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +36,7 @@
         .container {
             display: flex;
             align-items: stretch;
-            height: 200vh;
+            height: 400vh;
         }
 
         /* Sidebar Menu */
@@ -110,22 +112,22 @@
         <div class="digital-clock"></div>
     </div>
 
-    <!-- Content Area -->
+   <!-- Content Area -->
     <div class="container">
         <!-- Sidebar Menu -->
         <aside class="sidebar">
-   <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
-            <a href="file:///C:/Users/MHaziq/Desktop/ori/index.html">Home</a>
-            <a href="file:///C:/Users/MHaziq/Desktop/ori/profile.html">Profile</a>
-            <a href="file:///C:/Users/MHaziq/Desktop/ori/education.html">Education</a>
-            <a href="file:///C:/Users/MHaziq/Desktop/ori/experiences.html">Experiences</a>
-                        <a href="file:///C:/Users/MHaziq/Desktop/ori/skill.html">Skills</a>
-            <a href="file:///C:/Users/MHaziq/Desktop/ori/social%20media.html">Social Media</a>
+            <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                   <a href="index.html">Home</a>
+  <a href="profile.html">Profile</a>
+<a href="education.html">Education</a>
+<a href="experiences.html">Experiences</a>
+   <a href="skill.html">Skills</a>
+            <a href="social%20media.html">Social Media</a>
         </aside>
 
         <!-- Main Content -->
-        <div class="main">
-            <h2>Work with F&B Restaurant</h2>
+<div class="main" style="line-height: 1.5;">
+            <h1>Work with F&B Restaurant</h1>
             <ul>
                 <li>Self-study, which allows me to work independently using a standard curriculum to learn the important operational standards.</li>
                 <li>On-the-job coaching gives me the opportunity to work shoulder-to-shoulder with a coach, which builds on-the-job practical restaurant skills and shows how the concepts work in real life.</li>
@@ -135,47 +137,82 @@
             </ul>
     <hr style="border: 1px solid black; margin: 20px 0; width: 90%;">
 
-            <h2>Internship at Perpustakaan Tunku Abdul Razak UiTM Shah Alam</h2>
+            <h1>Internship at Perpustakaan Tunku Abdul Razak UiTM Shah Alam</h1>
+</ul>
             <img src="satu.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
-    Understanding Library Operations<h3>
+<strong style="font-size: 1.5em;">Understanding Library Operations</strong>
             <ul>
                 <li>Cataloging and Classification: Learning how library resources, such as books, journals, and multimedia, are organized using systems like Dewey Decimal or Library of Congress.</li>
                 <li>Circulation Services: Managing book loans, returns, and user accounts, including interacting with library patrons.</li>
                 <li>Collection Development: Assisting in selecting and evaluating materials to enhance the library's resources.</li>
             </ul>
+
 <img src="dua.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
-            Exposure to Digital and Technical Services</h3>
+             <strong style="font-size: 1.5em; ">Exposure to Digital and Technical Services</strong>
             <ul>
                 <li>Data Management: Working with library databases to update, clean, or extract information (e.g., task of listing intellectual material in Excel at PTAR Kejuruteraan).</li>
                 <li>Digital Libraries: Assisting in maintaining digital archives, e-resources, or online catalog systems.</li>
             </ul>
 
-            <h3>3. Learning User Services</h3>
+<img src="tiga.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
+ <strong style="font-size: 1.5em; ">Learning User Services</strong>
             <ul>
                 <li>Reference and Research Assistance: Guiding students and faculty in locating resources and using library tools.</li>
                 <li>Event Organization: Helping organize workshops, exhibitions, or user education programs.</li>
                 <li>Community Engagement: Participating in outreach efforts to promote library services.</li>
             </ul>
-
-            <h3>4. Teamwork and Professional Networking</h3>
+<img src="empat.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
+ <strong style="font-size: 1.5em; ">Teamwork and Professional Networking</strong>
             <ul>
                 <li>Interacting with librarians and other staff like Encik Fitri, a senior library assistant, to learn about their roles and workflows.</li>
                 <li>Collaborating with peers and professionals, providing opportunities to develop interpersonal and teamwork skills.</li>
             </ul>
-
-            <h3>5. Skill Development</h3>
+<img src="lima.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
+ <strong style="font-size: 1.5em; ">Skill Development</strong>
             <ul>
                 <li>Enhancing technical skills in software like Microsoft Excel or library-specific tools.</li>
                 <li>Improving soft skills such as communication, problem-solving, and customer service.</li>
                 <li>Learning about library standards and ethics, including privacy, copyright, and information sharing.</li>
             </ul>
-
-            <h3>6. Real-World Problem-Solving</h3>
+<img src="enam.gif" alt="Icon" style="width: 50px; height: 50px; vertical-align: middle;">
+ <strong style="font-size: 1.5em; ">Real-World Problem-Solving</strong>
             <ul>
                 <li>Addressing challenges like managing user complaints, organizing materials efficiently, or handling technical issues in digital library platforms.</li>
     <hr style="border: 1px solid black; margin: 20px 0; width: 90%;">
-
             </ul>
+
+<h1>Gallery</h1>
+<div style="overflow: hidden;">
+    <img src="intern.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+    <img src="intern1.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern2.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern3.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern4.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern5.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern6.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern7.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern8.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+<img src="intern9.jpg" alt="Internship Certificate" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; margin: 10px; float: left;">
+</div>
+            <hr style="border: 1px solid black; margin: 10px 0;">
+<div style="clear: both; margin-top: 20px;">
+    <h1>Videos</h1>
+    <div style="overflow: hidden;">
+        <video width="500" height="300" controls style="margin: 10px; float: left;">
+            <source src="vid1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video width="500" height="300" controls style="margin: 10px; float: left;">
+            <source src="vid2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video width="500" height="300" controls style="margin: 10px; float: left;">
+            <source src="vid3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+</div>
         </div>
     </div>
 
