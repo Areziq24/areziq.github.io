@@ -1,5 +1,3 @@
-education baru
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +7,7 @@ education baru
     <style>
         /* General Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, sans-serif;           
             margin: 0;
             padding: 0;
             background-image: url('try1.gif');
@@ -21,7 +19,7 @@ education baru
 
         /* Header */
         header {
-            background-image: url('jap');
+         background-image: url('jap');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -29,14 +27,15 @@ education baru
             padding: 10px 0;
             text-align: center;
             position: relative;
-            height: 60px;
+            height: 80px; /* Adjust height of the header */
+
         }
 
         /* Layout */
         .container {
             display: flex;
             align-items: stretch;
-            height: 200vh;
+            height: 150vh; 
         }
 
         /* Sidebar Menu */
@@ -69,11 +68,13 @@ education baru
             background-color: rgba(255, 255, 255, 0.8);
             color: black;
             border-radius: 8px;
+            line-height: 1.8; /* Add line spacing */
+            text-align: justify; /* Justify text */
         }
 
         /* Footer */
         footer {
-            background-image: url('try1.gif');
+               background-image: url('try1.gif');
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -84,30 +85,29 @@ education baru
             bottom: 0;
             width: 100%;
         }
-
-        /* Digital Clock */
+     /* Digital Clock */
         .digital-clock {
             width: 330px;
             background: transparent;
             border-radius: 10px;
             font-family: Arial, sans-serif;
-            font-size: 48px;
+            font-size: 28px;
             font-weight: bold;
             color: white;
             text-align: center;
             letter-spacing: 3px;
             margin: 20px auto;
             padding: 10px;
-        }
+}
     </style>
 </head>
-<body>
+<body>    
     <!-- Header -->
     <header>
-        <h1 style="color: gold; font-family: serif; letter-spacing: 2px;">MY EDUCATION</h1>
+<h1 style="text-decoration: ; color: gold; font-family: serif; letter-spacing: 2px;">MY SKILLS</h1>
     </header>
 
-    <!-- Digital Clock -->
+ <!-- Digital Clock -->
     <div align="center">
         <div class="digital-clock"></div>
     </div>
@@ -116,7 +116,7 @@ education baru
     <div class="container">
         <!-- Sidebar Menu -->
         <aside class="sidebar">
-            <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+  <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
             <a href="file:///C:/Users/MHaziq/Desktop/ori/index.html">Home</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/profile.html">Profile</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/education.html">Education</a>
@@ -125,52 +125,50 @@ education baru
             <a href="file:///C:/Users/MHaziq/Desktop/ori/social%20media.html">Social Media</a>
         </aside>
 
-        <!-- Main Content -->
-        <div class="main">
-            <!-- New Section Starts Here -->
-            <section>
-                <h2>SEKOLAH KEBANGSAAN KUANG</h2>
-                <img src="kuang.png" alt="Kuang School" style="width: 10%; border-radius: 8px; margin-bottom: 10px;">
-                <p>2011 - 2016.</p>
-                <p>Ujian Pencapaian Sekolah Rendah (UPSR).</p>
-                <p>Ujian Penilaian Sekolah Rendah Agama (PSRA).</p>
-                <h3>Listen to My Official School Song</h3>
-                <audio controls>
-                    <source src="sk.mp3" type="audio/mpeg">
-                </audio>
-            </section>
-            <hr style="border: 1px solid black; margin: 10px 0;">
-            <section>
-                <h2>SEKOLAH MENENGAH KEBANGSAAN BUKIT GADING</h2>
-                <img src="gading.jpg" alt="Bukit Gading School" style="width: 10%; border-radius: 8px; margin-bottom: 10px;">
-                <p>2017 - 2022.</p>
-                <p>Pentaksiran Tingkatan Tiga (PT3).</p>
-                <p>Sijil Pelajaran Malaysia (SPM).</p>
-                <h3>Listen to My Official School Song</h3>
-                <audio controls>
-                    <source src="gading.mp3" type="audio/mpeg">
-                </audio>
-            </section>
-            <hr style="border: 1px solid black; margin: 10px 0;">
-            <section>
-                <h2>UNIVERSITY TECHNOLOGY MARA SEGAMAT, JOHOR</h2>
-                <img src="uitm.png" alt="UiTM Segamat" style="width: 20%; border-radius: 8px; margin-bottom: 20px;">
-                <p>2022 - Now</p>
-                <p>Diploma of Information Management</p>
-                <h3>Listen to My Official University Song</h3>
-                <audio controls>
-                    <source src="uitm.mp3" type="audio/mpeg">
-                </audio>
-            </section>
-        </div> <!-- Main Content End -->
-    </div> <!-- Container End -->
+     <!-- Main Content -->
+<div class="main">
+    <h2>Skills</h2>
+    <ul>
+        <li>Information Management</li>
+        <li>Record Management</li>
+        <li>Teamwork</li>
+        <li>Time Management</li>
+        <li>Leadership</li>
+        <li>Effective Communication</li>
+        <li>Critical Thinking</li>
+        <li>Repair Desktop</li>
+    </ul>
+    <hr style="border: 1px solid black; margin: 20px 0; width: 90%;">
+
+    <h2>Languages</h2>
+    <ul>
+        <li>English (Proficiency)</li>
+        <li>Malay (Native)</li>
+    </ul>
+    <hr style="border: 1px solid black; margin: 20px 0; width: 90%;">
+
+    <h2>Additional Skills</h2>
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>Microsoft Word (Advanced)</li>
+        <li>Canva (Advanced)</li>
+        <li>Video Editing with CapCut (Advanced)</li>
+        <li>Microsoft PowerPoint (Advanced)</li>
+        <li>Microsoft Excel (Advanced)</li>
+        <li>C++ Programming (Basic)</li>
+        <li>EdrawMax (Intermediate)</li>
+    </ul>
+    <hr style="border: 1px solid black; margin: 20px 0; width: 90%;">
+
+</div> <!-- Main Content End -->
+
 
     <!-- Footer -->
     <footer>
-        <marquee width="20%" scrolldelay="150">CREATED BY HAZIQ.</marquee>
+         <marquee width="20%" scrolldelay="150">
+CREATED BY HAZIQ.</p>
     </footer>
-
-    <!-- JavaScript for Digital Clock -->
+   <!-- JavaScript for Digital Clock -->
     <script>
         setInterval(() => {
             const time = document.querySelector(".digital-clock");

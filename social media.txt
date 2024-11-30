@@ -1,5 +1,3 @@
-education baru
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +7,7 @@ education baru
     <style>
         /* General Styles */
         body {
-            font-family: Arial, sans-serif;
+             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-image: url('try1.gif');
@@ -21,7 +19,7 @@ education baru
 
         /* Header */
         header {
-            background-image: url('jap');
+             background-image: url('jap');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -29,14 +27,14 @@ education baru
             padding: 10px 0;
             text-align: center;
             position: relative;
-            height: 60px;
+            height: 80px; /* Adjust height of the header */
         }
 
         /* Layout */
         .container {
             display: flex;
             align-items: stretch;
-            height: 200vh;
+            height: 100vh; 
         }
 
         /* Sidebar Menu */
@@ -71,9 +69,29 @@ education baru
             border-radius: 8px;
         }
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
         /* Footer */
         footer {
-            background-image: url('try1.gif');
+                 background-image: url('try1.gif');
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -84,30 +102,29 @@ education baru
             bottom: 0;
             width: 100%;
         }
-
-        /* Digital Clock */
+     /* Digital Clock */
         .digital-clock {
             width: 330px;
             background: transparent;
             border-radius: 10px;
             font-family: Arial, sans-serif;
-            font-size: 48px;
+            font-size: 28px;
             font-weight: bold;
             color: white;
             text-align: center;
             letter-spacing: 3px;
             margin: 20px auto;
             padding: 10px;
-        }
+}
     </style>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1 style="color: gold; font-family: serif; letter-spacing: 2px;">MY EDUCATION</h1>
+<h1 style="text-decoration: ; color: gold; font-family: serif; letter-spacing: 2px;">MY SOCIAL MEDIA</h1>
     </header>
 
-    <!-- Digital Clock -->
+ <!-- Digital Clock -->
     <div align="center">
         <div class="digital-clock"></div>
     </div>
@@ -116,7 +133,7 @@ education baru
     <div class="container">
         <!-- Sidebar Menu -->
         <aside class="sidebar">
-            <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+  <img src="try.gif" alt="Sidebar Image" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
             <a href="file:///C:/Users/MHaziq/Desktop/ori/index.html">Home</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/profile.html">Profile</a>
             <a href="file:///C:/Users/MHaziq/Desktop/ori/education.html">Education</a>
@@ -127,50 +144,42 @@ education baru
 
         <!-- Main Content -->
         <div class="main">
-            <!-- New Section Starts Here -->
-            <section>
-                <h2>SEKOLAH KEBANGSAAN KUANG</h2>
-                <img src="kuang.png" alt="Kuang School" style="width: 10%; border-radius: 8px; margin-bottom: 10px;">
-                <p>2011 - 2016.</p>
-                <p>Ujian Pencapaian Sekolah Rendah (UPSR).</p>
-                <p>Ujian Penilaian Sekolah Rendah Agama (PSRA).</p>
-                <h3>Listen to My Official School Song</h3>
-                <audio controls>
-                    <source src="sk.mp3" type="audio/mpeg">
-                </audio>
-            </section>
-            <hr style="border: 1px solid black; margin: 10px 0;">
-            <section>
-                <h2>SEKOLAH MENENGAH KEBANGSAAN BUKIT GADING</h2>
-                <img src="gading.jpg" alt="Bukit Gading School" style="width: 10%; border-radius: 8px; margin-bottom: 10px;">
-                <p>2017 - 2022.</p>
-                <p>Pentaksiran Tingkatan Tiga (PT3).</p>
-                <p>Sijil Pelajaran Malaysia (SPM).</p>
-                <h3>Listen to My Official School Song</h3>
-                <audio controls>
-                    <source src="gading.mp3" type="audio/mpeg">
-                </audio>
-            </section>
-            <hr style="border: 1px solid black; margin: 10px 0;">
-            <section>
-                <h2>UNIVERSITY TECHNOLOGY MARA SEGAMAT, JOHOR</h2>
-                <img src="uitm.png" alt="UiTM Segamat" style="width: 20%; border-radius: 8px; margin-bottom: 20px;">
-                <p>2022 - Now</p>
-                <p>Diploma of Information Management</p>
-                <h3>Listen to My Official University Song</h3>
-                <audio controls>
-                    <source src="uitm.mp3" type="audio/mpeg">
-                </audio>
-            </section>
-        </div> <!-- Main Content End -->
-    </div> <!-- Container End -->
+            <h2>My Social Media Platforms</h2>
+            <table>
+                <tr>
+                    <th>Platform</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <img src="pic.png" width="100" height="100">
+                    <td><a href="https://www.instagram.com/haziq_shafee/" target="_blank">Visit Instagram</a></td>
+                </tr>
+                <tr>
+                    <td>Telegram</td>
+                    <td><a href="https://t.me/haziq_shafee" target="_blank">Visit Telegram</a></td>
+                </tr>
+                <tr>
+                     <a href="https://www.youtube.com/@mhaziq5036" target="_blank">
+                    <img src="yt.gif" width="100" height="100" alt="YouTube">
+                </tr>
+                <tr>
+                    <td>WhatsApp</td>
+                    <td><a href="https://www.whatsapp.com" target="_blank">Visit WhatsApp</a></td>
+                </tr>
+                <tr>
+                    <td>TikTok</td>
+                    <td><a href="https://www.tiktok.com/@areziq46" target="_blank">Visit TikTok</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
         <marquee width="20%" scrolldelay="150">CREATED BY HAZIQ.</marquee>
     </footer>
-
-    <!-- JavaScript for Digital Clock -->
+   <!-- JavaScript for Digital Clock -->
     <script>
         setInterval(() => {
             const time = document.querySelector(".digital-clock");
